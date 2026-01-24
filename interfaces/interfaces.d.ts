@@ -22,7 +22,11 @@ interface TrendingMovie {
   count: number;
   poster_url: string;
 }
-
+interface TabIconProps {
+  focused: boolean;
+  icon: any; // You might want to import and use a more specific type for the icon
+  title: string;
+}
 interface MovieDetails {
   adult: boolean;
   backdrop_path: string | null;

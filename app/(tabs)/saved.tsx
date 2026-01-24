@@ -5,7 +5,7 @@ export class saved extends Component {
   render() {
     return (
       <View>
-        <Text>saved</Text>
+        <Text>save the movie...</Text>
       </View>
     )
   }

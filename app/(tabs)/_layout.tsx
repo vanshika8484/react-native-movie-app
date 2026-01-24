@@ -5,7 +5,7 @@ import { images } from '@/constants/images'
 import { icons } from '@/constants/icons'
 
 const _layout = () => {
-  const TabIcon=({focused,icon,title})=>{
+  const TabIcon=({focused,icon,title}:TabIconProps)=>{
    if(focused) return(
        <ImageBackground source={images.highlight} className='flex flew-row w-full flex-1 min-w-[112px] min-h-14 mt-4 justify-center items-center rounded-full overflow-hidden'>
 <Image source={icon} tintColor="#151312" className="size-5" />
